@@ -1,6 +1,5 @@
 /* @author: TheCrow*/
 /* @version: TheCrowUpdateThemes-1 */
-/* For local users */
 
 :root {
  --TheCrow-sec: rgb(255, 255, 255);
@@ -158,9 +157,10 @@ body {
 .winButton_f17fb6 {
  color: var(--TheCrow-sec);
 }
-.VoiceChatNotifications-button-icon {
- color: var(--TheCrow-sec);
-}
+/* Цвет уведомления */
+/* .VoiceChatNotifications-button-icon {
+  color: var(--TheCrow-sec);
+} */
 .side-2ur1Qk .themed-2-lozF.selected-g-kMVV.item-3XjbnG,
 .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.item-3XjbnG {
  background: var(--TheCrow-sec);
@@ -655,7 +655,7 @@ button[aria-label="Send a gift"] {
 }
 /* Надпись Discord */
 .wordmark__5b8c9 {
- margin-left: 46%;
+ display: none;
 }
 
 .wordmark__5b8c9 > svg {
